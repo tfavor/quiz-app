@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nature and Wildlife Quiz Game</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Wildlife Quiz Game</h1>
+    </header>
+    <main role="main" id="game-board">
+        <section class="start-page">
+            <div class="keeping-track">
+                <p class="questions">Questions:  <span class="question-count">0</span>/10</p>
+                <p class="score">Score:  <span class="current-score">25%</span></p>
+            </div>
+            <h2>WRONG!</h2>
+        </section>
+        <section class="question-form">
+            <form class="answers" action="">
+                <div class="answer-choice">
+                    <input disabled type="radio" name="answer-choices" value="answer-1"> Answer 1 
+                </div>
+                <div class="answer-choice">
+                    <input disabled type="radio" name="answer-choices" value="answer-2"> Answer 2
+                </div>
+                <div class="answer-choice">   
+                    <input disabled type="radio" name="answer-choices" value="answer-3"> Answer 3 
+                </div>
+                <div class="answer-choice"> 
+                    <input disabled type="radio" name="answer-choices" value="answer-4"> Answer 4 
+                </div> 
+            </form>
+        </section>
+        <form action="final.html">
+            <input class="start-button" type="submit" value="Next">
+        </form>
+    </main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

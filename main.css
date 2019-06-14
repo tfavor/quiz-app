@@ -26,8 +26,21 @@ h2 {
     margin: 50px;
 }
 .start-button {
+    font-size: 20px;
     align-self: center;
     margin: 30px;
     width: 70px;
-    height: 50px;
+    height: 5em;
+}
+.question-form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+.answer-choice {
+    display: flex;
+    padding: 10px 0px;
+    margin-top: 30px;
+    border: 2px solid black;
+    font-size: 20px;
 }
