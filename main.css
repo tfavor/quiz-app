@@ -32,6 +32,9 @@ h2 {
     width: 70px;
     height: 5em;
 }
+.hidden {
+    display: none;
+}
 .question-form {
     margin-left: auto;
     margin-right: auto;
