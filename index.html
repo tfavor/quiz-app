@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nature and Wildlife Quiz Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Basic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+13px&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
@@ -14,8 +17,8 @@
     </header>
     <main role="main" id="game-board">
             <div class="keeping-track">
-                <p class="questions">Questions:  <span class="question-count">0</span>/10</p>
-                <p class="score">Score:  <span class="current-score">0</span></p>
+                <p class="questions">questions:  <span class="question-count">0</span>/5</p>
+                <p class="score">score:  <span class="current-score">0</span></p>
             </div>
         <section role="start-page" class="start-page">
             <h2>Test your knowledge of wildlife</h2>
@@ -26,19 +29,19 @@
         <section role="question-answer-form" class="question-form hidden">
             <h2 class="the-question"></h2>
                 <form class="answers" action="">
-                    <div class="answer-choice answer-choice-1">
-                        <input id="1" type="radio" name="answer-choices" value="answer-1"  required><span class="choice-1">answer one</span>
+                    <div class="answer-choice">
+                        <input id="1" type="radio" name="answer-choices" value=""  required><span class="choice-1">answer one</span>
                     </div>
-                    <div class="answer-choice answer-choice-2">
-                        <input id="2" type="radio" name="answer-choices" value="answer-2" ><span class="choice-2">answer one</span>
+                    <div class="answer-choice">
+                        <input id="2" type="radio" name="answer-choices" value="" ><span class="choice-2">answer one</span>
                     </div>
-                    <div class="answer-choice answer-choice-3">   
-                        <input id="3" type="radio" name="answer-choices" value="answer-3" ><span class="choice-3">answer one</span>  
+                    <div class="answer-choice">   
+                        <input id="3" type="radio" name="answer-choices" value="" ><span class="choice-3">answer one</span>  
                     </div>
-                    <div class="answer-choice answer-choice-4"> 
-                        <input id="4" type="radio" name="answer-choices" value="answer-4" ><span class="choice-4">answer one</span>  
+                    <div class="answer-choice"> 
+                        <input id="4" type="radio" name="answer-choices" value="" ><span class="choice-4">answer one</span>  
                     </div> 
-                    <input class="submit-button" type="submit" value="Submit">
+                    <input class="submit-button w10-btn" type="submit" value="Submit">
                 </form> 
         </section>
         <section role="wrong-feedback" class="wrong-feedback feedback hidden">

@@ -1,6 +1,6 @@
 const questions = [
     {
-        prompt: "What is the only country that lemurs are native to?",
+        prompt: "What is the only country lemurs are native to?",
         correctAnswer: "Madagascar",
         answers: ["Madagascar", "Japan", "Brazil", "Romania"]
     },
@@ -73,7 +73,6 @@ function startGame() {
 
 function clearChoices() {
     $('input[type=radio]').prop('checked', false);
-    $("input").closest('div').css('background-color', 'white');
 }
 
 function wrongFeedback() {
@@ -107,7 +106,7 @@ function evaluateChoice() {
 }
 
 function results() {
-    $(".question-form").html(`<h1>your score: ${score}</h1>
+    $(".question-form").html(`<h2>your score: ${score}</h2>
     <button class="restartButton">Restart Quiz</button></div>`);
 }
 
